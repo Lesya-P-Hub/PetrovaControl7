@@ -1,0 +1,44 @@
+﻿<Page x:Class="PetrovaControl7.View.Pages.StartPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PetrovaControl7.View.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="1060"
+      Title="StartPage">
+
+    <Grid>
+        <Image Source="/Resources/SK.png" Stretch="UniformToFill"/>
+        <TextBlock FontSize="50" FontStyle="Italic" TextDecorations="Underline">
+            <TextBlock.Background>
+                <ImageBrush/>
+            </TextBlock.Background>
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF3812E6" Offset="0"/>
+                    <GradientStop Color="#FFFF00F3" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground><Run Text="САЛОН КРАСОТЫ">
+                <Run.Background>
+                    <ImageBrush/>
+                </Run.Background>
+            </Run></TextBlock>
+
+        <TextBlock FontSize="50" FontStyle="Italic" TextDecorations="Underline" Margin="161,182,-161,-182">
+            <TextBlock.Background>
+                <ImageBrush/>
+            </TextBlock.Background>
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF3812E6" Offset="0"/>
+                    <GradientStop Color="#FFFF00F3" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground><Run Text="ПЕРЕЗАГРУЗКА">
+                <Run.Background>
+                    <ImageBrush/>
+                </Run.Background>
+            </Run></TextBlock>
+
+    </Grid>
+</Page>

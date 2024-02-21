@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6096405797974224a05c872cdf5c99af" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="Petrova.Olesya.HairSalonModel.Accounting" Width="1.5" PointX="5.25" PointY="1" />
+        <EntityTypeShape EntityType="Petrova.Olesya.HairSalonModel.Manufactura" Width="1.5" PointX="0.75" PointY="1.5" />
+        <EntityTypeShape EntityType="Petrova.Olesya.HairSalonModel.Material" Width="1.5" PointX="3" PointY="1.375" />
+        <EntityTypeShape EntityType="Petrova.Olesya.HairSalonModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" />
+        <EntityTypeShape EntityType="Petrova.Olesya.HairSalonModel.Worker" Width="1.5" PointX="3" PointY="5.5" />
+        <EntityTypeShape EntityType="Petrova.Olesya.HairSalonModel.View_1" Width="1.5" PointX="7.75" PointY="0.75" />
+        <AssociationConnector Association="Petrova.Olesya.HairSalonModel.FK_Accounting_Material" />
+        <AssociationConnector Association="Petrova.Olesya.HairSalonModel.FK_Accounting_Worker" />
+        <AssociationConnector Association="Petrova.Olesya.HairSalonModel.FK_Material_Manufactura" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
